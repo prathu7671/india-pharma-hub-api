@@ -10,7 +10,7 @@ import Quote from './models/Quote.js';
 dotenv.config();
 
 const app = express();
-const MONGODB_URI = process.env.MONGODB_URI;
+const MONGODB_URI = "mongodb+srv://prathmeshchavan8652:J4BTvRDyxX7djxRb@cluster0.jsn2g.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 if (!MONGODB_URI) {
   throw new Error('Please define the MONGODB_URI environment variable');
